@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(229, 243, 255);
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 5px 17px 1px black;
+}
+
+.txt{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+input{
+    border: none;
+    height: 30px;
+    text-align: center;
+}
+
+#response{
+    background-color: rgb(214, 236, 254);
+    padding: 3px;
+    text-transform: capitalize;
+}
+
