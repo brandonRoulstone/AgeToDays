@@ -1,7 +1,6 @@
 function ageToDays(){
     let response = document.getElementById("response");
     let age = document.getElementById("age").value;
-    let days = Math.ceil(365.25)
     let result = age * 365.25;
     response.innerHTML =`<p>your age in days are:<br>${result.toFixed(0)}</p>`
     console.log(result.toFixed(0));
